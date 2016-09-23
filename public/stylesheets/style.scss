@@ -1,0 +1,93 @@
+$bg-color: #f1eae0;
+$navbar-color:#85c2bc;
+$text-active-color:#fcf8e3;
+$text-color:#632e09;
+
+body{
+    background-color: $bg-color;
+    color:$text-color;
+    font-family: 'Roboto Slab', serif;
+}
+
+.description{
+    background-color:$navbar-color;
+    border:2px dotted #4c2408;
+    font-size:1.2em;
+    margin-left:25%;
+    margin-top:20vh;
+    padding:12px;
+    width:50%;
+}
+
+.dropdown{
+    .open{
+        #settingsDropdown{
+            background-color: $navbar-color;
+        
+            &~ .dropdown-menu{
+                left:auto;
+                right:0;
+            }
+        } 
+    }
+}
+
+
+.fwLogo img{
+    padding-top: 25px;
+}
+
+#languageModal{
+    .modal-content{
+        border-radius:0px;
+    }
+}
+
+.navbar-default{
+    background-color:$navbar-color;
+    background-image:none;
+    border-color:$navbar-color;
+}
+
+.navbar-default{
+    .navbar-nav{
+        padding-top:40px;
+
+        li{
+            a{
+                color:$text-color;
+                font-size:1.6em; 
+
+                &:hover{
+                    color:$text-active-color;
+                }       
+            }
+        }
+
+        .dropdown{
+            li{
+                a{
+                    font-size:1em;
+                    line-height: 50px;
+                }
+            }
+        }
+    }
+}
+
+#navbarLinks{
+    float:right;
+
+    div{
+        padding-top:10px;
+    }
+}
+
+#settingsIcon{
+    transition: transform .8s ease-in-out;
+
+    &:hover{
+        transform: rotate(90deg);
+    }
+}
+

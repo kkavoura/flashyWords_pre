@@ -1,0 +1,53 @@
+body {
+  background-color: #f1eae0;
+  color: #632e09;
+  font-family: 'Roboto Slab', serif; }
+
+.description {
+  background-color: #85c2bc;
+  border: 2px dotted #4c2408;
+  font-size: 1.2em;
+  margin-left: 25%;
+  margin-top: 20vh;
+  padding: 12px;
+  width: 50%; }
+
+.dropdown .open #settingsDropdown {
+  background-color: #85c2bc; }
+  .dropdown .open #settingsDropdown ~ .dropdown-menu {
+    left: auto;
+    right: 0; }
+
+.fwLogo img {
+  padding-top: 25px; }
+
+#languageModal .modal-content {
+  border-radius: 0px; }
+
+.navbar-default {
+  background-color: #85c2bc;
+  background-image: none;
+  border-color: #85c2bc; }
+
+.navbar-default .navbar-nav {
+  padding-top: 40px; }
+  .navbar-default .navbar-nav li a {
+    color: #632e09;
+    font-size: 1.6em; }
+    .navbar-default .navbar-nav li a:hover {
+      color: #fcf8e3; }
+  .navbar-default .navbar-nav .dropdown li a {
+    font-size: 1em;
+    line-height: 50px; }
+
+#navbarLinks {
+  float: right; }
+  #navbarLinks div {
+    padding-top: 10px; }
+
+#settingsIcon {
+  transition: transform .8s ease-in-out; }
+  #settingsIcon:hover {
+    transform: rotate(90deg); }
+
+/*# sourceMappingURL=style.css.map */
